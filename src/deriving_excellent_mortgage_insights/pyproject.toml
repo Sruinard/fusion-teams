@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deriving-excellent-mortgage-insights"
+version = "0.1.0"
+description = ""
+authors = ["Stef Ruinard <stefruinard@microsoft.com>"]
+packages = [{ include = "./deriving_excellent_mortgage_insights" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = {extras = ["torch"], version = "^4.21.1"}
+strawberry-graphql = { version = "^0.121.0", extras = ["fastapi"] }
+uvicorn = "^0.18.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
