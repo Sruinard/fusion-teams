@@ -1,0 +1,1 @@
+pip install uvicorn && gunicorn -w 3 -k uvicorn.workers.UvicornWorker deriving_excellent_mortgage_insights.app:app

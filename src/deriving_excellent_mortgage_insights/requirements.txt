@@ -1,0 +1,4 @@
+transformers[torch]
+strawberry-graphql[fastapi]
+uvicorn
+gunicorn

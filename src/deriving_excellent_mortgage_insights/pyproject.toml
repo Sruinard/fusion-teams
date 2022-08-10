@@ -10,6 +10,7 @@ python = "^3.9"
 transformers = {extras = ["torch"], version = "^4.21.1"}
 strawberry-graphql = { version = "^0.121.0", extras = ["fastapi"] }
 uvicorn = "^0.18.2"
+gunicorn = "^20.1.0"
 
 
 [build-system]
